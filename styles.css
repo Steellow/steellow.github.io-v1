@@ -1,0 +1,97 @@
+/**
+   * Colors borrowed from Tailwind:
+   * https://tailwindcss.com/docs/customizing-colors#default-color-palette
+   */
+
+ :root {
+    --red-100: #FFF5F5;
+    --red-200: #FED7D7;
+    --red-300: #FEB2B2;
+    --red-500: #F56565;
+    --red-700: #C53030;
+    --red-900: #742A2A;
+    --pink-100: #FFFAF0;
+    --orange-500: #ED8936;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ ::selection {
+    background: var(--red-200);
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.15;
+}
+
+body {
+    align-items: center;
+    background: var(--pink-100);
+    display: flex;
+    font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 2rem;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    padding: 2.5rem;
+}
+
+main {
+    background: var(--red-100);
+    border: 0.25rem solid var(--red-300);
+    padding: 2.5rem;
+}
+
+@media (min-width: 640px) {
+    main {
+        padding: 5rem;
+    }
+}
+
+h1 {
+    color: var(--red-500);
+    font-size: 4rem;
+    margin: 0 0 5rem 0;
+    text-shadow: 0 0.15rem var(--red-700);
+}
+
+p {
+    margin: 0 0 2rem 0;
+}
+
+.emoji {
+    display: inline-block;
+    height: 2.3rem;
+    margin-bottom: -0.5rem;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    padding: 1rem 0;
+}
+
+a {
+    color: var(--red-900);
+    text-decoration: underline;
+    text-decoration-color: var(--orange-500);
+    text-decoration-thickness: 0.25rem;
+    text-decoration-skip-ink: none;
+    transition: all 0.1s;
+}
+
+a:hover,
+a:focus {
+    background: var(--red-200);
+    text-decoration-thickness: 0.5rem;
+}
+
+a:active {
+    background: var(--red-300);
+    text-decoration-thickness: 0.25rem;
+}
