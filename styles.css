@@ -1,9 +1,8 @@
 /**
-   * Colors borrowed from Tailwind:
-   * https://tailwindcss.com/docs/customizing-colors#default-color-palette
-   */
-
- :root {
+ * Colors borrowed from Tailwind:
+ * https://tailwindcss.com/docs/customizing-colors#default-color-palette
+ */
+:root {
     --red-100: #FFF5F5;
     --red-200: #FED7D7;
     --red-300: #FEB2B2;
