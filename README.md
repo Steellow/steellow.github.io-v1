@@ -1,3 +1,3 @@
-# [git.hanki.dev/steellow.github.io-OLD](https://git.hanki.dev/steellow.github.io-OLD)
+# [git.hanki.dev/steellow.github.io-v1](https://git.hanki.dev/steellow.github.io-v1)
 
 Old personal website, nothing interesting here.
